@@ -15,8 +15,8 @@ import joblib
 
 np.random.seed(42)
 
-online = pd.read_pickle("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/online.pkl")
-InStore = pd.read_pickle("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/InStore.pkl")
+online = pd.read_pickle("my_file_path")
+InStore = pd.read_pickle("my_file_path")
 
 
 ## Functions needed.
