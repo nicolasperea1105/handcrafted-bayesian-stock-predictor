@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 from scipy.stats import skew, kurtosis
 
-transactions = pd.read_csv('C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/retail_store_sales.csv')
+transactions = pd.read_csv('my_file_path')
 
 
         ## Handling Missing Values
