@@ -39,7 +39,7 @@ def predict_bayesian(data, low, high):
 
 ## Preparing data:
 
-salesTEST = pd.read_csv("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/usage_data.csv")
+salesTEST = pd.read_csv("my_file_path")
 ## Reducing sample:
 salesTEST = salesTEST.loc[0:1999, :]
 salesTEST.shopping_mall.value_counts()
@@ -120,11 +120,11 @@ InStoreTEST = InStoreTEST[['Intercept', 'Total Spent', 'MonthInd', 'Season']]
 
 ## Loading models
 
-ols_online = joblib.load("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/OLS online")
-ols_InStore = joblib.load("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/OLS InStore")
+ols_online = joblib.load("my_file_path")
+ols_InStore = joblib.load("my_file_path")
 
-bayesian_online = joblib.load("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/bayesian_betas_Online.pkl")
-bayesian_InStore = joblib.load("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/bayesian_betas_InStore.pkl")
+bayesian_online = joblib.load("my_file_path")
+bayesian_InStore = joblib.load("my_file_path")
 
 ## OLS model usage:
 
