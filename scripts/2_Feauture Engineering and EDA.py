@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 from scipy.stats import skew, kurtosis
 
-transactions = pd.read_pickle("C:/Users/nicol/OneDrive/Desktop/Bayesian Regression on Profit/transactions_clean.pkl")
+transactions = pd.read_pickle("my_file_path")
 transactions.dtypes
 
 
